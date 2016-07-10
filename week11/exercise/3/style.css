@@ -1,0 +1,4 @@
+*{font-size:16pt;}  
+table {	border-collapse:collapse; width:90%; }
+td,Th {	border: 1px solid #0000CC;empty-cells: show;}
+input	{ text-decoration: none; color: #FF00CC;font-size: 16px ; }

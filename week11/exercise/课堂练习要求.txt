@@ -1,0 +1,11 @@
+模仿例子 
+使用的数据库network,数据表student
+
+1 练习用php注册到mysql数据表中,并模仿reg.htm,insert.php写出删除、更新程序
+
+2 学会用各种方法浏览student表中的信息
+
+3 修改"delete.php"文件，把代码补充完整，使能删除指定条件的数据
+  增加“确认”，“取消”按钮，确认后才删除
+
+4 模仿"delete.php"和注册程序，完成"update.php",更新指定条件的数据

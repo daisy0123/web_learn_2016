@@ -1,0 +1,86 @@
+* {
+    font-size: 12pt;
+}
+
+body {
+    background: #3399FF;
+    COLOR: white;
+    height: 100%;
+}
+
+#container {
+    margin: 0 auto;
+    width: 700pt;
+
+}
+
+a:visited, a:link, a:active {
+    COLOR: #0066FF;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #FFffff;
+    text-decoration: none;
+    background: #0066FF;
+}
+
+table {
+    text-align: center;
+    width: 700pt;
+    color: white;
+    background: #3399FF;
+    border-collapse: collapse;
+}
+
+td {
+    color: #0066FF;
+    background-image: url('img/bg7.gif');
+    height: 25pt;
+    margin: 0pt;
+    border: 1px solid #0066ff;
+}
+
+form {
+    text-align: center;
+
+}
+
+input {
+    background-color: #1291f9;
+    COLOR: white;
+}
+
+div {
+    text-align: center;
+    color: white;
+    background: #3399FF;
+    font-size: 10pt;
+
+}
+
+.head1 {
+    text-align: center;
+    color: #330099;
+    background: #3399FF;
+    background-image: url("img/BAN_hd1.GIF");
+    background-repeat: no-repeat;
+    font-size: 30pt;
+    font-family: "¿¬Ìå_gb2312";
+    font-weight: bolder;
+    margin-left: 50pt;
+    padding-top: 10pt;
+    height: 50pt;
+}
+
+#rename {
+    position: absolute;
+    top: 50pt;
+    text-align: center;
+    color: #3399ff;
+    background: #3399FF;
+    background-image: url('img/bg7.gif');
+    padding: 10pt;
+}

@@ -1,0 +1,35 @@
+* {
+	font-size:12pt;
+	color:#407c3e;
+	background-color:#ff9a00;
+}
+table {
+	border-collapse:collapse;
+	width:600pt;
+	background-color:#8ca93b;
+}
+td, Th {
+	border: 1px solid #407c3e;
+	empty-cells: show;
+	background-color:#8ca93b;
+	color:#ffffff
+}
+a:link, a:visited {
+	text-decoration: none;
+	background-color:#8ca93b;
+	color:#ffffff;
+	border:1px solid #407c3e;
+}
+a:hover {
+	text-decoration: none;
+	background-color:#ffffff;
+	color: #407c3e;
+}
+pre {
+	color:#ffffff;
+	background-color:#8ca93b;
+	width:60%;
+}
+div {
+	width:600pt;
+}

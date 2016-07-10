@@ -1,0 +1,53 @@
+教师资料：
+李月梅
+13711203265
+2604711587@qq.com
+课程群号： 544780846
+
+讲义百度云分享，里面有海量视频，请选择性下载学习
+链接：http://pan.baidu.com/s/1bop91Kz 密码：as3r
+
+
+作业网址： http://172.16.34.167:8082
+
+
+网上学习资源
+        http://www.w3school.com.cn 
+
+
+考试分数构成：
+
+2次测验  各10分=20分  独立做
+3次博客  各10分=30分  独立做
+1次大作业       40分  分组做
+平时            10分 
+
+
+
+教学进度
+week1-知识概述，服务器安装，软件常识
+week2-html
+week3-div+css
+week4-javascript
+week5-html+css+javascript
+week6-php基本语法1
+week7-php基本语法2
+week8-php例子
+week9-php+mysql
+week10-cookie与session
+week11-综合例子
+week12-网站规划与设计
+week13-论坛、安装与备份
+week14-服务器安全知识
+week15-web服务器日志与客户分析
+week16-学生大作业演示
+
+
+
+
+计算机网络  B/S模式    IP地址   端口号
+数据库    SQL--select , insert, update, delete
+
+A502教师机     192.168.232.78:8089
+
+
