@@ -1,0 +1,38 @@
+<html>
+<head>
+<title> 倒计时 </title>
+<link rel="stylesheet" type="text/css" href="js.css">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+</head>
+<script language="javascript">
+s1=0
+m1=0
+h1=0
+function cal()
+{
+  s1=s1+1
+  if (s1==60)
+  {   m1=1+m1
+      s1=0
+   }
+  if (m1==60)
+  {   h1=h1+1
+      m1=0
+  }
+  document.aa.t1.value=h1+":"+m1+":"+s1
+  setTimeout("cal()",1000)
+}
+</script>
+<body bgcolor="#ffffff">
+<form name="aa">
+	您逗留了
+	<input type=text name="t1">
+</form>
+<script language="javascript">
+cal()
+</script>
+</body>
+</html>
+
+
+

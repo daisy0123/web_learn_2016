@@ -1,0 +1,38 @@
+<html>
+<head><title>在线投票</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script language="javascript"> 
+function vote_onsubmit()
+{ 
+  if(document.vote.options[0].checked==false &&
+     document.vote.options[1].checked==false &&
+     document.vote.options[2].checked==false &&
+     document.vote.options[3].checked==false) {
+      alert("您没有选择!")
+      return false
+  }
+}
+</script>
+</head>
+<body background="./image/gray.jpg">
+<center>
+<div>
+
+<h2>在线投票</h2>
+<hr>
+<form action="vote.php" name="vote" method="post" 
+language="javascript" onsubmit="return vote_onsubmit()">
+<p><font color="red">最喜欢哪一位</font><br>
+<input type="radio" name="options" value="0">章洋<br>
+<input type="radio" name="options" value="1">谢峰<br>
+<input type="radio" name="options" value="2">赵海<br>
+<input type="radio" name="options" value="3">刘莉<br>
+
+<input type="submit" value="投票">
+</form><P>
+<a href="result.php">投票结果</a>
+
+</div>
+</center>
+</body>
+</html>

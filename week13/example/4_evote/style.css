@@ -1,0 +1,8 @@
+*{font-size:18pt;}  
+pre{font-size:12pt;}
+table {	border-collapse:collapse; width:80%; }
+td,Th {
+	border: 1px dotted #0000CC;
+	empty-cells: show;
+	height:40pt;
+}

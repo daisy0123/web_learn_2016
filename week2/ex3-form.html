@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<title>form</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<html>
+<head>
+
+
+<body bgcolor="#ffffff">
+<h1>
+  <center>
+    注册个人信息
+  </center>
+</h1>
+<form method=post action="">
+  学号:
+  <input type="text" name="number" value="" size=11 maxlength=11 >
+  <br>
+  姓名:
+  <input type="text" name="name" value="" size=8 maxlength=8  >
+  <br>
+  密码:
+  <input type="password" name="password" value="" size=10 maxlength=10  >
+  <br>
+  性别:
+  <input type="radio" name="sex">
+  男
+  <input type="radio" name="sex" checked>
+  女<br>
+  爱好:
+  <input type="checkbox" name="favor1">
+  音乐
+  <input type="checkbox" name="favor2" checked>
+  美术
+  <input type="checkbox" name="favor3" checked>
+  体育
+  <input type="checkbox" name="favor4">
+  舞蹈
+  <p> 文件:
+    <input type="file" name="">
+  <p> 学院
+    <select name="department" size=1>
+      <option>英文学院
+      <option>东语学院
+      <option>西语学院
+      <option>经贸学院
+      <option>商管学院
+    </select>
+    <br>
+    个人介绍:<br>
+    <textarea name="detail" rows="6" cols="20">
+  </textarea>
+  <p>
+    <input type="submit"  value="发送" >
+    <input type="reset"  value="重填">
+    <input type="button" value="普通按钮" >
+</form>
+</body>
+</html>

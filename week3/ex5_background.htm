@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Background-image</TITLE>
+<style  type=text/css>
+* {
+	font-size: 14pt;
+}
+div {
+	width: 800pt;
+	height: 400pt;
+	border: 1pt dotted #FC9200;
+	margin: 10pt;
+	color: #FFF
+}
+#id1 {
+	background: #BED07B url(image/bg5.gif) no-repeat;
+	height: 200pt;
+}
+#id2 {
+	background: #BED07B url(image/bg5.gif) repeat-x;
+	height: 200pt;
+}
+#id3 {
+	background: #BED07B url(image/bg5.gif) repeat-y;
+	height: 300pt;
+}
+#id4 {
+	background: #BED07B url(image/bg5.gif);
+	background-repeat: no-repeat;
+	background-position: 50px 100px;
+	height: 300pt;
+}
+</style>
+</HEAD>
+
+<BODY>
+<p>background为符合属性.属性如下: </p>
+<h2><strong>background:background-color ||background-image || background-repeat || background-attachment || background-position </strong></h2>
+
+<div id="id1"> background-repeat:no-repeat; 背景不重复（只显示一次）<br>
+</div>
+
+<div id="id2"> <br>
+  background-repeat:repeat-x; 横向重复<br>
+</div>
+
+<div id="id3"> <br>
+  background-repeat:repeat-y 纵向重复 </div>
+  
+<div id="id4"> <br>
+  background-position: 50px 100px;</div>
+ 
+</BODY>
+</HTML>

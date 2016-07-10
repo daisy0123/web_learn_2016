@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>电子表</title>
+<link rel="stylesheet" type="text/css" href="js.css">
+</head>
+<script language="JavaScript">
+var now
+var getmo
+var gety
+var getd
+var week
+var getweek
+var geth
+var getm
+var gets
+function say(){
+   now=new Date()
+   gety=now.getFullYear()
+   getmo=now.getMonth()+1
+   getd=now.getDate()
+   getweek=now.getDay()
+   if(getweek==1) week="星期一"
+   else if(getweek==2) week="星期二"
+   else if(getweek==3) week="星期三"
+   else if(getweek==4) week="星期四"
+   else if(getweek==5) week="星期五"
+   else if(getweek==6) week="星期六"
+   else week="星期日"
+  document.write("<h2>今天是"+gety+"年"+getmo+"月"+getd+"日     "+week+"</h2>")
+}
+ 
+function littleclock(){
+  now=new Date()
+  geth=now.getHours()
+  if(geth<=9) geth="0"+geth
+  getm=now.getMinutes()
+  if(getm<=9) getm="0"+getm
+  gets=now.getSeconds()
+  if(gets<=9) gets="0"+gets
+  document.f2.t2.value=geth+":"+getm+":"+gets;
+  setTimeout("littleclock()",1000)  
+}
+</script>
+<body>
+<center>
+<hr>
+<form name="f2">
+  <script> say() </script>
+  <font size=5>现在的时间是<b>
+  <input type="text" size="8" name="t2">
+  <script> littleclock()  </script>
+  </b> </font> 
+</form>
+<hr>
+</center>
+</body>
+</html>
+

@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<title>表单</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<style type="text/css">
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 14pt;
+	line-height: 40pt;
+}
+input {
+	font-size: 12pt;
+	border-style: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #006666;
+}
+select {
+	background: transparent;
+	width: 268px;
+	padding: 5px;
+	 
+	border: 1px solid #ccc;
+	height: 34px;
+}
+textarea{
+	background-color:#39CEB0;
+	border:1pt #0f3 solod ;
+	width:320pt;
+	height:90pt;
+	overflow:scroll;
+	}
+.btn{
+	width: 70px;
+	height: 30px;
+	line-height: 15px;
+}
+.btn[value]{
+	font-size: 14px;
+}
+</style>
+
+</head>
+
+<body bgcolor="#ffffff">
+<h1>
+  <center>
+    注册个人信息
+  </center>
+</h1>
+<form method=post action="">
+  学号:
+  <input type="text" name="number" value="" size=11 maxlength=11 >
+  <br>
+  姓名:
+  <input type="text" name="name" value="" size=8 maxlength=8  >
+  <br>
+  密码:
+  <input type="password" name="password" value="" size=10 maxlength=10  >
+  <br>
+  性别:
+  <input type="radio" name="sex">
+  男
+  <input type="radio" name="sex" checked>
+  女<br>
+  爱好:
+  <input type="checkbox" name="favor1">
+  音乐
+  <input type="checkbox" name="favor2" checked>
+  美术
+  <input type="checkbox" name="favor3" checked>
+  体育
+  <input type="checkbox" name="favor4">
+  舞蹈
+  <p> 文件:
+    <input type="file" name="">
+  <p> 学院
+    <select name="department" size=1>
+      <option>英文学院 </option>
+      <option>东语学院</option>
+      <option>西语学院</option>
+      <option>经贸学院</option>
+      <option>商管学院</option>
+    </select>
+    <br>
+    个人介绍:<br>
+    <textarea name="detail" rows="6" cols="20">
+    </textarea>
+  <p>
+    <input class="btn" type="submit"  value="发送" >
+    <input  class="btn" type="reset"  value="重填">
+    <input class="btn" type="button" value="普通按钮" >
+</form>
+</body>
+</html>

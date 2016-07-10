@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>menu</title>
+		<link rel="stylesheet" href="css/example.css">
+	</head>
+
+	<body>
+		<div class="menu">
+			<h2>下拉菜单</h2>
+			<table>
+				<tr>
+					<td onmouseover="expand(this)" onmouseout="collapse(this)">
+						<p>menu1</p>
+						<div class="menu_list">
+							<table>
+								<tr>
+									<td>menu11</td>
+								</tr>
+								<tr>
+									<td>menu12</td>
+								</tr>
+								<tr>
+									<td>menu13</td>
+								</tr>
+								<tr>
+									<td>menu14</td>
+								</tr>
+
+							</table>
+						</div>
+					</td>
+					<td onmouseover="expand(this)" onmouseout="collapse(this)">
+						<p>menu2</p>
+						<div class="menu_list">
+							<table>
+								<tr>
+									<td>menu21</td>
+								</tr>
+								<tr>
+									<td>menu22</td>
+								</tr>
+								<tr>
+									<td>menu23</td>
+								</tr>
+								<tr>
+									<td>menu24</td>
+								</tr>
+
+							</table>
+						</div>
+					</td>
+					<td onmouseover="expand(this)" onmouseout="collapse(this)">
+						<p>menu3</p>
+						<div class="menu_list">
+							<table>
+								<tr>
+									<td>menu31</td>
+								</tr>
+								<tr>
+									<td>menu32</td>
+								</tr>
+								<tr>
+									<td>menu33</td>
+								</tr>
+								<tr>
+									<td>menu34</td>
+								</tr>
+
+							</table>
+						</div>
+					</td>
+					<td onmouseover="expand(this)" onmouseout="collapse(this)">
+						<p>menu4</p>
+						<div class="menu_list">
+							<table>
+								<tr>
+									<td>menu41</td>
+								</tr>
+								<tr>
+									<td>menu42</td>
+								</tr>
+								<tr>
+									<td>menu43</td>
+								</tr>
+								<tr>
+									<td>menu44</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+					<td onmouseover="expand(this)" onmouseout="collapse(this)">
+						<p>menu5</p>
+						<div class="menu_list">
+							<table>
+								<tr>
+									<td>menu51</td>
+								</tr>
+								<tr>
+									<td>menu52</td>
+								</tr>
+								<tr>
+									<td>menu53</td>
+								</tr>
+								<tr>
+									<td>menu54</td>
+								</tr>
+
+							</table>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<script type="text/javascript">
+			function expand(s) {
+				var td = s;
+				var d = td.getElementsByTagName("div").item(0);
+				d.className = "menu_hover";
+			}
+
+			function collapse(s) {
+				var td = s;
+				var d = td.getElementsByTagName("div").item(0);
+				d.className = "menu_list";
+			}
+		</script>
+	</body>
+
+</html>

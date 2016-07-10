@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>z-index</title>
+		<link rel="stylesheet" type="text/css" href="css/example.css">
+		<script type="text/javascript">
+			function displayforall() {
+				document.getElementById("pic").style.display = "block";
+			}
+
+			function hideforall() {
+				document.getElementById("pic").style.display = "none";
+			}
+
+			function displayforie() {
+				document.all.pic.style.display = "block";
+			}
+
+			function hideforie() {
+				document.all.pic.style.display = "none";
+			}
+		</script>
+	</head>
+
+	<body>
+		<a href="javascript:void(0)" target="" onmouseover="displayforall()" onmouseout="hideforall()">显示隐藏图片 </a>
+		<p>
+			<input type="button" value="display picture--for all browser 适用于所有浏览器" onclick="displayforall()">
+			<input type="button" value="hide  picture--for all browser" onclick="hideforall()">
+			<p>
+				<p>
+					<div id="pic" class="picc"> 左边文字 <img src="image/5.jpg" width="300" border="0" alt="">右边文字 </div>
+					<div id="image1"> <img src="image/4.jpg" width="300" border="0" alt=""> </div>
+					<hr>
+					<input type="button" value="display picture--only ie browser仅适用于ie浏览器" onclick="displayforie()">
+
+					<input type="button" value="hide  picture--only  ie browser" onclick="hideforie()">
+	</body>
+
+</html>

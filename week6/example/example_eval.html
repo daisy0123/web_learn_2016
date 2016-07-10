@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>example_eval</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/example.css">
+		<script type="text/javascript">
+			alert(eval("temp=3+2"));
+			alert("temp=" + temp);
+			var the_unevaled_answer = "2 + 3";
+			var the_evaled_answer = eval("2 + 3");
+			alert("例1 \n\n the un-evaled answer is " + the_unevaled_answer + "\n \n the evaled answer is " + the_evaled_answer);
+			var n = 3;
+			var b = 5,
+				c = 6;
+			eval('a' + n + '=b*c');
+			alert("例2 \n\n a3=" + a3);
+
+			function disp() {
+				img2 = 5;
+				var1 = "document.getElementById('image1').src='image//" + img2 + ".jpg';"
+				eval(var1);
+			}
+		</script>
+	</head>
+
+	<body>
+		<input type="button" value="显示" onclick="disp()">
+		<img src="" id="image1">
+	</body>
+
+</html>

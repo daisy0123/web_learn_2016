@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>点击显示图片</title>
+<link rel="stylesheet" href="css/example.css">
+<script type="text/javascript">
+function display(n)
+	{
+	document.getElementById("pic").innerHTML="<img src='image/p"+n+".jpg'>";
+	}
+</script>
+</head>
+<body>
+<table border="0" width="600">
+  <tr>
+    <td onclick="display(1)">1</td>
+    <td onclick="display(2)">2</td>
+    <td onclick="display(3)">3</td>
+    <td onclick="display(4)">4</td>
+    <td onclick="display(5)">5</td>
+    <td onclick="display(6)">6</td>
+    <td onclick="display(7)">7</td>
+    <td onclick="display(8)">8</td>
+    <td onclick="display(9)">9</td>
+    <td onclick="display(10)">10</td>
+    <td onclick="display(11)">11</td>
+    <td onclick="display(12)">12</td>
+  </tr>
+  <tr>
+    <td colspan="12">
+        <div id="pic"> 
+           <img src="image/p1.jpg" width="640" id="pic1" /> 
+        </div>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

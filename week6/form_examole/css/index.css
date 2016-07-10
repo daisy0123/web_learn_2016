@@ -1,0 +1,156 @@
+body {
+	background: url(../img/logo_x_pattern.png);
+	font-family: "微软雅黑";
+}
+
+.personal {
+	width: 50%;
+	height: 800px;
+	background-color: white;
+	position: absolute;
+	top: 50px;
+	left: 25%;
+}
+
+.focus {
+	border: 1px solid red;
+}
+
+legend {
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+label {
+	font-size: 15px;
+}
+
+input {
+	height: 20px;
+	border: 1px solid #dedede;
+	border-radius: 5px;
+	font-size: 13px;
+}
+
+.write {
+	margin-left: 10px;
+}
+
+.write_u1 {
+	padding-top: 20px;
+}
+
+textarea {
+	border-radius: 5px;
+	border: 1px solid #dedede;
+	font-size: 12px;
+}
+
+.msg label {
+	display: block;
+	float: left;
+	margin-right: 5px;
+}
+
+.msg {
+	width: 500px;
+	position: relative;
+}
+
+.msg_caption {
+	display: block;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: -2px;
+	right: 5px;
+}
+
+.msg_caption span {
+	border: 1px solid #dedede;
+	border-radius: 3px;
+	background-color: #DEDEDE;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.msg_caption span:hover {
+	color: #000000;
+}
+
+.u3 {
+	position: relative;
+}
+
+.sel_u1 {
+	position: absolute;
+	left: 260px;
+	top: 46px;
+}
+
+.sel {
+	border: none;
+	font-size: 14px;
+	color: #FFFFFF;
+	cursor: pointer;
+	line-height: 14px;
+}
+
+.sel:hover {
+	color: #000000;
+}
+
+.u4 {
+	float: left;
+}
+
+.u5 {
+	margin-left: 10px;
+}
+
+.u4 label,
+.u5 label {
+	display: block;
+	float: left;
+}
+
+.word {
+	display: block;
+	padding-left: 110px;
+}
+
+.word_u1 {
+	display: block;
+	padding-left: 300px;
+}
+
+.word span,
+.word_u1 span {
+	font-size: 11px;
+	background-color: #DEDEDE;
+	color: #000;
+	cursor: pointer;
+}
+
+.sub {
+	text-align: center;
+}
+
+.sub input {
+	font-size: 13px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.formtips {
+	font-size: 10px;
+	color: #FF0000;
+}
+
+option{
+	font-size: 13px;
+	
+}

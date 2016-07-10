@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<title> if语句 </title>
+</head>
+<link rel="stylesheet" type="text/css" href="js.css">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<body>
+<form name="f1">
+	输入分数<input type="text" name="t1" size=6>
+	<input type="button" value="显示" onclick="comp()">
+</form>
+<script language="javascript">
+function comp()
+{
+	a=eval(document.f1.t1.value)
+    if (a>100   ||   a<0)
+	     alert("超出范围")       
+
+	else if (a>=60)
+	     alert("及格")       
+	else 
+	     alert("不及格")       
+}
+</script>
+</body>
+</html>
+</html>

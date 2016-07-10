@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>倒计时</title>
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			form{
+				background-color: cadetblue;
+				width: 80%;
+				height: 500px;
+				text-align: center;
+				line-height: 500px;
+				position: absolute;
+				left: 10%;
+				display: block;
+			}
+			
+			input {
+				width: 300px;
+				height: 300px;
+				font-size: 250px;
+			}
+			
+			label {
+				font-size: 100px;
+			}
+			
+			
+		</style>
+		<script type="text/javascript">
+			var second = 31;
+
+			function test() {
+				if(second>0){
+					second--;
+				}
+					
+				
+				document.f1.time.value = second;
+				setTimeout("test()", 1000)
+			}
+		</script>
+	</head>
+
+	<body>
+		<form name="f1">
+			<label>剩余时间：</label>
+			<input type="text" name="time" />		
+			<script>
+				test();
+			</script>
+		</form>
+	</body>
+
+</html>

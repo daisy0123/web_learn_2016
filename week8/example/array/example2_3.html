@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+<HEAD>
+
+  <TITLE>用户调查表</TITLE>
+   <LINK REL="stylesheet" TYPE="text/css" HREF="style.css">
+</HEAD>
+
+<BODY>
+  欢迎光临本网站，请首先输入以下个人资料：<p>
+
+  <FORM method="post" action="example2_3.php">
+    帐号：<INPUT maxlength="25" size="16" name="login"><p>
+    姓名：<INPUT type="password" size="19" name="yourname"><p>
+    密码：<INPUT type="password" size="19" name="passwd"><p>
+    查询密码问题：
+    <SELECT name="question">
+      <OPTION selected value="">
+        --请您选择--
+      </OPTION>
+
+      <OPTION value="我的宠物名字？">
+        我的宠物名字？
+      </OPTION>
+
+      <OPTION value="我最好的朋友是谁?">
+        我最好的朋友是
+      </OPTION>
+
+      <OPTION value="我最喜爱的颜色？">
+        我最喜爱的颜色？
+      </OPTION>
+    </SELECT><p>
+    性别：<INPUT type="radio" name="gender" value="1" checked> 男<INPUT type="radio" name="gender" value="2">女<p>
+    请选择你的爱好：
+    <INPUT type="checkbox" name="hobby[]" value="dance">跳舞
+    <INPUT type="checkbox" name="hobby[]" value="tour">旅游
+    <INPUT type="checkbox" name="hobby[]" value="sing">唱歌
+    <INPUT type="checkbox" name="hobby[]" value="game">游戏<p>
+    <INPUT type="submit" value="提交"> <INPUT type="reset" value="重填"><p>
+  </FORM>
+</BODY>
+</HTML>

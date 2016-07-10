@@ -1,0 +1,175 @@
+body{
+	background: #ADD8E6;
+	font-family: "微软雅黑";
+}
+
+.login{
+	background:#ffffff ;
+	width: 25%;
+	height: 300px;
+	position: absolute;
+	left:37.5%;
+	top:100px;
+	border-radius:5px ;
+}
+.login_nav,.show_title{
+	height:45px;
+	width: 100%;
+	border-bottom: 2px solid #ADD8E6;
+	line-height: 45px;
+	text-align: center;
+}
+.login_nav>a,.show_title>p{
+	color:#1E90FF;
+	font-size: 21px;
+	
+}
+.login_form{
+	width: 80%;
+	height: 180px;
+	margin: 20px auto;
+	position: relative;
+	
+}
+.login_form>form{
+	width: 100%;
+	height: 80%;
+	position: absolute;
+	top:10%;
+}
+.login_form .row{
+	width: 100%;
+	height: 30px;
+	margin-top: 20px;
+}
+.row>label{
+	color:dodgerblue;
+	font-size:18px ;
+}
+.row>input{
+	width: 70%;
+	height: 30px;
+	color: #333;
+	font-size: 17px;
+	border-radius:5px ;
+	border: 1px solid #1E90FF;
+}
+.smb{
+	text-align: center;
+}
+.smb>input,.smb>span{
+	display: block;
+	float: left;
+	background: #1E90FF;
+	color: #FFFFFF;
+	width: 30%;
+	margin-top: 20px;
+	margin-left: 35px; 
+	cursor: pointer;
+	border: none;
+	transition: background-color 0.5s linear;
+}
+.smb>span{
+	height: 30px;
+	line-height: 30px;
+	border-radius:5px;
+	
+}
+.smb>span>a{
+	color: #FFFFFF;
+	font-size: 17px;
+}
+.smb>input:hover,.smb>span:hover{
+	background-color: #ADD8E6;
+}
+
+.reg{
+	height: 400px;
+}
+.regg>input{
+	margin-left:90px ;
+}
+
+.show{
+	background: #FFFFFF;
+	width: 60%;
+	height: auto;
+	position: absolute;
+	left: 20%;
+	top:100px;
+	border-radius: 5px;
+}
+.show_title{
+	border: none;
+	position: relative;
+}
+
+.show>table{
+	width: 90%;	
+	border: 1px solid #1E90FF;
+	margin-left: 5%;
+}
+.show>table>tr{
+	width: 100%;
+	height: 40px;
+	
+}
+.show th{
+	text-align: center;	
+	height: 30px;
+	border: 1px solid #1E90FF;
+	line-height: 30px;
+	background:#ADD8E6 ;
+	color: #FFFFFF;
+}
+.show .th1{
+	width: 10%;
+
+}
+.show .th2{
+	width: 20%;
+
+}
+.show .th3{
+	width:30%
+    	
+}
+.show td{
+	border: 1px solid #1E90FF;
+	height: 23px;
+	line-height: 23px;
+	font-size: 15px;
+}
+.rep{
+	padding-top: 20px;
+	width: 90%;
+	height: 40px;
+	margin-left: 5%;
+}
+.rep>span{
+	display: block;
+	width: 80px;
+	background: #1E90FF;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	margin-right: 15px;
+	text-align: center;
+	border-radius: 5px;
+	transition: background-color 0.5s linear;
+}
+.rep>span>a{
+	color: #FFFFFF;
+	font-size: 17px;
+}
+.rep>span:hover{
+	background-color: #ADD8E6;
+}
+.user_info{
+	width: 30%;
+	height: 40px;
+	position: absolute;
+	right: 2px;
+	top:0;
+}
+

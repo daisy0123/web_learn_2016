@@ -1,0 +1,127 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+		body{
+			width:100%;
+			height: auto;
+			background-color: 	#FFE4E1;
+		
+		}
+		.nav{
+			background:url(image/header_bg.jpg) repeat-x;
+			width: 100%;
+			height: 90px;
+			position: relative;
+		}
+		h1{
+			float: left;
+			position: absolute;
+			left: 45%;
+			bottom: 0px;
+			color:deeppink;
+		}
+		img{
+			float: left;
+		}
+		.navv{
+			width: 500px;
+			height: 28px;			
+			position: absolute;
+			left:35%;
+			top:110px;
+			
+			border-bottom: 2px solid #E10001;
+		}
+		.navv ul li{
+			list-style: none;
+			float: left;
+			width: 87px;
+			height: 28px;
+			background: url(image/menu5_nav_bg.gif) 0 -29px no-repeat;
+			text-align: center;
+			color: #ffffff;
+			line-height: 29px;
+			font-size: 18px;
+			cursor: pointer;
+			margin-left: 2px;
+		}
+		.navv ul li.current{
+			background: url(image/menu5_nav_bg.gif) 0 0px no-repeat;
+		}
+		.current a{
+			color:#FFFFFF;
+		}
+		.navv ul li:hover{
+			background-position: 0px 0px;			
+		}
+		
+		a{
+			color:#E10001;
+			text-decoration: none;
+		}
+		.navv ul li:hover a{
+			color:#FFFFFF;
+		}
+		.con{
+			width: 100%;
+			height: 400px;
+			position: absolute;
+			top:150px;
+		
+		}
+		.left{
+			width: 20%;
+			height: 326px;
+			border: 1px solid #FFA07A;
+			position: absolute;
+			float: left;
+		}
+		
+		.left ul li{
+			width: 100%;
+			height: 40px;
+		
+			border-bottom: 1px solid #FFA07A;
+			text-align: center;
+			color:#FFA07A;
+			cursor: pointer;
+		}
+		.left ul li:first-child,.left ul li:hover{
+			background-color: #FFA07A;
+			color: #FFFFFF;
+		}
+		.right{
+			width: 78%;
+			height:400px ;
+			float: left;
+			position: absolute;
+			right: 0;
+			border: 1px solid #FF1493;
+			background: url(image/right_content_bg.gif) repeat;
+			line-height: 38px;
+			color:#F0F
+		}
+		.right ul li{
+			width: 80px;
+			height: 120px;
+			list-style: none;
+			float: left;
+			margin-right: 30px;
+		}
+		.right img{
+			width: 80px;
+			height: 80px;
+		}
+		.right p{
+			color:#333;
+			text-align: center;
+		}
+		.footer{
+			width: 100%;
+			height: 88px;
+			background: url(image/footer_bg.jpg) repeat-x;
+			position: absolute;
+			bottom: 0;
+			text-align: center;
+		}

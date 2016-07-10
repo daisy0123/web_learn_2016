@@ -1,0 +1,41 @@
+<!doctype html >
+<html>
+
+	<head>
+		<title>visibility</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/example.css">
+		<script language="javascript">
+			function displayforall() {
+				document.getElementById("pic").style.visibility = "visible";
+			}
+
+			function hideforall() {
+				document.getElementById("pic").style.visibility = "hidden";
+			}
+
+			function displayforie() {
+				document.all.pic.style.visibility = "visible";
+			}
+
+			function hideforie() {
+				document.all.pic.style.visibility = "hidden";
+			}
+		</script>
+	</head>
+
+	<body>
+		<a href="javascript:void(0)" target="" onmouseover="displayforall()" onmouseout="hideforall()">显示隐藏图片 </a>
+		<p>
+			<input type="button" value="display picture--for all browser 适用于所有浏览器" onclick="displayforall()">
+			<input type="button" value="hide  picture--for all browser" onclick="hideforall()">
+			<p>
+				<p>
+					<div id="pic"> 左边文字 <img src="image/5.jpg" width="300" border="0" alt="">右边文字 </div>
+					<div id="image1"> <img src="image/4.jpg" width="300" border="0" alt=""> </div>
+					<hr>
+					<input type="button" value="display picture--only ie browser仅适用于ie浏览器" onclick="displayforie()">
+					<input type="button" value="hide  picture--only  ie browser" onclick="hideforie()">
+	</body>
+
+</html>

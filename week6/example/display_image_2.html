@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>自动轮播显示图片</title>
+<link rel="stylesheet" href="css/example.css">
+<script type="text/javascript">
+n=1;
+function display()
+{  n++;
+   if (n==13)
+   n=1;
+	document.getElementById('piccc').innerHTML="<img src='image/p"+n+".jpg'>";
+	setTimeout("display()",1000);
+	}
+</script>
+</head>
+
+<body>
+<table border="0" width="600">
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td colspan="12">
+        <div id="piccc"> 
+           <img src="image/p1.jpg" width="640" id="pic1" /> 
+        </div>
+    </td>
+  </tr>
+</table>
+<script type="text/javascript">
+display();
+</script>
+
+</body>
+</html>

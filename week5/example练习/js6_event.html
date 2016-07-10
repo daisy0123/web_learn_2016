@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>鼠标事件和窗口弹出和窗口关闭确认和页面跳转 </title>
+<link rel="stylesheet" type="text/css" href="js.css">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+</head>
+<script language="javascript">
+function aa()
+{
+	document.f2.t3.value=document.f2.t2.value
+}
+function bb()
+{
+	document.f2.t3.value="鼠标单击"
+}
+
+function cc()
+{
+	document.f2.t3.value="鼠标走了"
+}
+function dd()
+{
+	document.f2.t3.value="我要改变了"
+}
+
+function ee()
+{
+	alert("弹出\n小窗口!!")
+}
+function ff()
+{
+	msg=window.open("http://www.gdufs.edu.cn","_blank","toolbar=no,location=no,width=500,height=400")
+}
+function gg()
+{
+		var confirm=window.confirm("是否关闭此窗口？");
+		if(confirm){
+		window.close()
+		}
+}
+function kk()
+{
+		msg.window.close()
+}
+function  quit()
+{
+	msg1=window.open("","_blank","toolbar=no,location=no,width=500,height=400")
+	msg1.document.write("<h1>bye bye!</h1>")
+}
+function changes(){
+	location.href="http://www.gdufs.edu.cn";
+}
+</script>
+
+<body bgcolor="#ff33ff" onload="ff()" onunload="quit()">
+<center>
+<h2>鼠标事件和窗口弹出和窗口关闭确认和页面跳转
+</h2>
+<form name="f2">
+	<input type=text name="t2" value="把鼠标移动到第二个文本框" size=30><br>
+	<input type=text name="t3" value="在这里单击和移动" size=30 onclick="bb()" onmouseover="aa()" onmouseout="cc()" >
+</form>
+	<a href="" onmouseover="ee()">小窗口</a>　　
+    <a href="" onmouseover="ff()">windows窗口</a>
+<p>
+<input type="button" value="关闭当前窗口" onclick="gg()">
+
+<input type="button" value="关闭弹出的windows窗口" onclick="kk()">
+<input type="button" value="跳转页面" onclick="changes()">
+</center>
+
+
+
+</body>
+</html>
+	

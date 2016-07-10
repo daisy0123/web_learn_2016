@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>布局</title>
+		<link href="layout.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="header">this is the header</div>
+			<br class="clearfloat" />
+			<div id="menu">this is the menu</div>
+			<br class="clearfloat" />
+			<div id="maincontent">
+				<div id="sidebar">this is the sidebar
+					<br />
+					<br /> this is the sidebar
+					<br />
+					<br /> this is the sidebar
+					<br />
+					<br /> this is the sidebar
+					<br />
+					<br /> this is the sidebar
+					<br />
+					<br /> this is the sidebar
+					<br />
+					<br /> this is the sidebar
+					<br />
+					<br />
+				</div>
+				<div id="content">2列左窄右宽、高度自适应+头部+导航+尾部
+					<br />
+					<br />
+					<br /> 　　
+					<br />
+					<br /> 　　这句话是清除浮动用的，因为我们在header和menu内设计时都可能涉及到浮动，还有sidebar栏和content，本身已经浮动了，这样如果content的高度没有sidebar高时，footer也会浮动到sidebar右侧，造成整个页面错乱，采用这种方式可以有效避免错乱。
+					<br />
+					<br /> 　　另外，sidebar和content分别采用左浮动和右浮动的方式，可有效避免ie6的3像素bug。当然也可以采用自适应宽度时 margin-left:205px !important; margin-left:202px;这种方法来修正3像素的问题。
+					<br />
+					<br /> 　　总之，实现的方法是多种多样的，这只是本人在学习过程中总结的一点经验，权当抛砖引玉，希望能对您有所帮助，当然您有更好的办法和布局，欢迎一块来学习，交流，让web标准在中国得到更好的发展。同时希望您继续关注标准之路(www.aa25.cn)
+					<br />
+					<br /> 　　如果您要实现未知高度底部平齐，请参考23例
+					<br />
+				</div>
+			</div>
+			<br class="clearfloat" />
+			<div id="footer">this is the footer</div>
+		</div>
+	</body>
+
+</html>

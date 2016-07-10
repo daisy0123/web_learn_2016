@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>倒计时</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+			<script type="text/javascript">
+				var hours=1;
+				var minutes=0;
+				var second=0;
+			function test(){
+				if(hours==0&&minutes==0&&second==0){
+					alert("时间倒计结束");
+				}else{
+					if(hours>0){
+						second=60;
+						minutes=60;				
+						hours--;					
+					}			
+					if(second>0){
+						second--;
+					}
+					if(second==0 && minutes>0){
+						minutes--;
+						second=60;
+					}
+				
+				}
+				
+				 document.f1.time.value=hours+":"+minutes+":"+second;	
+			  	setTimeout("test()",1000)
+	}
+				
+			</script>
+	</head>
+	
+	<body>
+		<form name="f1">
+			<label>剩余时间：</label>
+			<input type="text" name="time"/>
+			<script> test() </script>
+		</form>
+	</body>
+</html>

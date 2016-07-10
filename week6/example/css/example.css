@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: cadetblue;
+	font-size: 18px;
+	color:#666;
+	
+}
+#pic {
+	display: block;
+}
+input {
+	color: #FFFFFF;
+	font-size: 14pt;
+	background: #1588C1;
+	border:2pt solid #0BA7C0;
+	
+	
+}
+.picc{
+	z-index: 100;
+	position: absolute;
+	border: 2px solid #0099FF;
+	background-color: #00CCFF;
+}
+ 
+table {
+	width: 700pt; 
+	text-align: center;
+	background-color:lightblue;
+}
+td {
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	position: relative;
+}
+.menu{
+	text-align: center;
+	
+}
+.menu>table{
+	width: 60%;
+	height: 30px;
+	text-align: center;
+	background-color: #ADD8E6;
+	position: absolute;
+	top:100px;
+	left: 20%;
+}
+.menu>table>td{
+	width: 20%;
+	height: 30px;
+	position: relative;
+}
+.menu td:hover{
+	background-color: #1588C1;
+	color:#FFFFFF;
+}
+.menu_list{
+	display: none;
+}
+.menu_hover{
+	display: block;
+}
+.menu_hover>table{
+	width:100%;
+	border: none;
+	position: absolute;
+	top:26px;
+	left:0;
+}
+.menu_hover td{
+	color:#666666;
+	font-size: 15px;
+}
+

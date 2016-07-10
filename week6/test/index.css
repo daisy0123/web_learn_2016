@@ -1,0 +1,23 @@
+#header { position: absolute; left: 32; top: 20; }
+  #mainnav { position: absolute; left: 32; top: 82; }
+                
+  #q1 { position:absolute; top:150;left:100; width:300;}
+  #q2 { position:absolute; top:150;left:100; width:300; visibility:hidden;}
+  #q3 { position:absolute; top:150;left:100; width:300; visibility:hidden;}
+  #q4 { position:absolute; top:150;left:100; width:300; visibility:hidden;}
+  #q5 { position:absolute; top:150;left:100; width:300; visibility:hidden;}
+  #q6 { position:absolute; top:150;left:100; width:300; visibility:hidden;}
+  #q7 { position:absolute; top:150;left:100; width:300; visibility:hidden;}
+  #q8 { position:absolute; top:150;left:100; width:300; visibility:hidden;}
+  #q9 { position:absolute; top:150;left:100; width:300; visibility:hidden;}
+  #thanks { position:absolute; top:150;left:100; width:300; visibility:hidden;}
+
+  #qTracker {position:absolute; top:150;left:450;}
+  #right {position:relative;color:green;visibility:hidden;}
+  #wrong {position:relative;color:red;visibility:hidden;}
+
+  .header {font-family:verdana,sans-serif;font-size:12px;font-weight:bold;color:#999999}
+  .questionHd {font-family:verdana,sans-serif;font-size:14px;font-weight:bold;}
+  .trackerHd {font-family:verdana,sans-serif;font-size:14px;font-weight:bold;font-style:italic;}
+  .qText {font-family:verdana,sans-serif;font-size:11px;}
+  .bold {font-weight:bold;}

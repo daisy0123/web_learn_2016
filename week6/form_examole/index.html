@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+
+	<body>
+		<div class="personal">
+			<form action="" method="post" id="regForm">
+				<fieldset>
+					<legend>个人基本信息</legend>
+					<div class="write">
+						<div class="write_u1 ">
+							<label for="usn">姓名:</label>
+							<input id="usn" class="required"    type="text" />
+						</div>
+						<div class="write_u1 ">
+							<label for="username">昵称:</label>
+							<input id="username" type="text" />
+						</div>
+						<div class="write_u1 ">
+							<label for="email">邮箱:</label>
+							<input id="email" class="required" type="text" />
+						</div>
+						<div class="write_u1">
+							<label for="psd">密码:</label>
+							<input id="psd" class="required" type="password" />
+						</div>
+						<div class="write_u1">
+							<label for="ucomfirm">确认密码:</label>
+							<input id="ucomfirm" class="required" type="password" />
+						</div>
+						<div class="write_u1 u3 ">
+							<form>
+								你爱好的运动是？
+								<br />
+								<input type="checkbox" name="items" value="足球" />足球
+								<input type="checkbox" name="items" value="篮球" />篮球
+								<input type="checkbox" name="items" value="羽毛球" />羽毛球
+								<input type="checkbox" name="items" value="乒乓球" />乒乓球
+								<div class="sel_u1">
+									<input class="sel" type="button" id="CheckedALL" value="全选" />
+									<input class="sel" type="button" id="CheckedNo" value="全不选" />
+									<input class="sel" type="button" id="CheckedRed" value="反选" />
+									<input class="sel" type="button" id="send" value="提交" />
+									<!--
+                            	<input class="sel" type="button" id="CheckedSel" value="全选/全不选"/>
+                            -->
+								</div>
+							</form>
+						</div>
+						<div class="write_u1 u4">
+							<label>掌握技术选择：</label>
+							<select multiple="true" id="select1" style="width: 100px;height: 200px;">
+								<option value="1">html</option>
+								<option value="1">css</option>
+								<option value="1">javascript</option>
+								<option value="1">jquery</option>
+								<option value="1">ajax</option>
+							</select>
+							<div class="word">
+								<span id="add">选中添加到右边&gt;&gt;</span>
+								<br />
+								<span id="add_all">全部添加到右边&gt;&gt;</span>
+							</div>
+						</div>
+						<div class="write_u1 u5">
+							<label>我会的技术：</label>
+							<select multiple="true" id="select2" style="width: 100px;height: 200px;">								
+							</select>
+							<div class="word_u1">
+								<span id="remove">&lt;&lt;选中删除到左边</span>
+								<br />
+								<span id="remove_all">&lt;&lt;全部删除到左边</span>
+							</div>
+						</div>
+						<div class="write_u1 msg">
+							<div class="msg_caption">
+								<span class="bigger">放大</span>
+								<span class="smaller">缩小</span>
+							</div>
+							<div class="con">
+								<label for="msg">详细信息:</label>
+								<textarea id="msg" rows="5" cols="64"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="sub">
+						<input type="submit" value="提交" id="send_u1"/><input type="reset" value="重置" id="res" />
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/index.js" type="text/javascript"></script>
+	</body>
+
+</html>
